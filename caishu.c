@@ -5,8 +5,8 @@ int main()
 {
     srand(time(0));
     int a = rand();
-    printf("我现在已经想好了一个0-100的数，来猜猜看吧\n");
-    a %= 100;
+    printf("我现在已经想好了一个0-1000的数，来猜猜看吧\n");
+    a %= 1000;
     int i, n=0;
 
     do
