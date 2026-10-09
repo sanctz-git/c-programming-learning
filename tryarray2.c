@@ -3,7 +3,7 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    int d[n], pos = 0;
+    int d[n], pos = 1;
 
     for (int i = 0; i < n; i++)
     {
@@ -20,7 +20,7 @@ int main()
             pos = i + 1;
         }
     }
-    printf("%d %d",max, pos);
+    printf("%d %d\n",max, pos);
     
     return 0;
 }
