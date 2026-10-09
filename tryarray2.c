@@ -20,7 +20,7 @@ int main()
             pos = i + 1;
         }
     }
-    printf("%d %d",max, count);
+    printf("%d %d",max, pos);
     
     return 0;
 }
